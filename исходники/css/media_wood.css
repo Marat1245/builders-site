@@ -1,0 +1,600 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+
+	
+.s-top .vyzov{display: none;}
+.s-top .tel{display: none;}
+.m_section{
+        position: fixed;
+        width: 100%;
+        top:92px;
+        left:0;
+        z-index: 100;
+        padding-top: 16px;
+    }
+    
+    .m_section .h_sub_tel {
+    padding-top: 8px;
+    }
+
+
+    .s-top{
+        height: 157px;
+    }
+    
+.s-top .logo {
+	/* background: url('../img/logo.png') no-repeat top center; */
+	height: 65px;
+	float: none;
+	width: 265px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}    
+
+.s-top .logo img{
+    width: 100%;
+}
+
+/****************************************/
+.s1 {
+	padding-top: 170px;
+        min-width: auto;
+        width: 100%;
+
+height:auto;
+}
+
+.s1 .p_text{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.s1 .sk58 {
+	position: relative;
+	right: auto;
+	top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+
+.s1 .block3_s1 {
+
+	left: auto;
+	position: relative;
+	top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+margin-bottom: 30px;
+right: auto;
+}
+
+.s1 .wood_o1 {
+
+	left: auto;
+	position: relative;
+	top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+
+.s1 .block_s1 {
+
+	left: auto;
+	position: relative;
+	top: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.s1 .block2_s1 {
+
+	left: auto;
+	position: relative;
+	top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 415px;
+}
+
+
+
+/****************************************/
+.s22{
+	height:auto;
+        padding-bottom: 30px;
+}
+
+.calc.calc_okna {
+	height: auto;
+}
+.calc .c_left {
+	float: none;
+	margin-left: auto;
+	width: 555px;
+	position: relative;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+.calc .c_right {
+	float: none;
+	width: 344px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*************************/
+.config_area .container{
+padding-left: 15px;
+padding-right: 15px;
+}
+    
+   
+/**************************************************/
+
+.s6 .zakaz_vp {
+
+	padding-left: 27px;
+	background-size: 100% 100%;
+}
+
+.s6 .input_name {
+	margin-right: 31px;
+}
+
+/******************************************/
+.footer .d1 {
+	font-family: officinaserifcbold;
+	font-size: 30px;
+	font-weight: normal;
+}
+.footer .d2 {
+	font-size: 23px;
+	padding-top: 10px;
+}
+
+/***********************************************/
+.carousel-gal.owl-theme .owl-controls .owl-nav .owl-prev {
+	left: 10px;
+}
+.carousel-gal.owl-theme .owl-controls .owl-nav .owl-next {
+	right: 10px;
+}
+
+
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.toptop,
+.scroll{
+	display:none;
+}	
+/********************************/
+.s1 .block_s1 {
+	width: 760px;
+	background-size: 100%;
+	padding: 10px;
+}
+.s1 .s_table {
+	font-size: 38px;
+	margin-top: 0;
+	width: 100%;
+}
+
+/****************************/
+
+.s6{
+	height:auto;
+}
+
+.s6 .zakaz_vp {
+	
+	height: auto;
+	max-width: 520px;
+	padding-bottom: 20px;
+	padding-left: 0;
+}
+
+.s6 .input_name {
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+.s6 .input_tel {
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+}
+
+.s6 .zakaz_vp .btn {
+
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+h1 {
+	font-size: 30px;
+	line-height: 31px;
+        line-height: normal;
+}    
+    
+.calc.calc_okna .calc_main {
+	width: 441px;
+}
+.calc .c_left {
+	width: 470px;
+}
+
+/*****************************************/
+.s1 .sk58 {
+	width: 480px;
+	background-size: 100% auto;
+}
+
+.s1 .block_s1 {
+	width: 480px;
+	background-size: 100% 100%;
+	height:auto;
+}
+
+.s1 .s_table {
+	font-size: 18px;
+}
+
+/********************************************/
+
+.pozdr {
+	background: rgb(255, 208, 0);
+	height: auto;
+	width: 320px;
+	padding-bottom: 10px;
+}
+
+.pozdr .header {
+	font-size: 33px;
+	padding-top: 15px;
+	padding-right: 45px;
+}
+
+.pozdr .p1_msg {
+	left: auto;
+	position: relative;
+	top: auto;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.pozdr .pozdr_name_div {
+	position: relative;
+	right: auto;
+	top: auto;
+	margin-top: 20px;
+}
+
+.pozdr .pozdr_tel_div {
+	position: relative;
+	right: auto;
+	top: auto;
+	margin-top: 20px;
+}
+
+.pozdr .btn {
+	margin-left: auto;
+	margin-top: 20px;
+	width: 166px;
+	margin-right: auto;
+}
+
+.pozdr .sec {
+	bottom: auto;
+	font-family: officinaserifcbold;
+	font-size: 16px;
+	left: auto;
+	position: relative;
+}
+
+/************************************/
+.s4 .carousel-block img{
+	max-height:290px;
+}
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+ .m_section .h_sub_tel{
+        width:auto;
+    }  
+   .m_section .h_sub_tel {
+    padding-top: 15px;
+    }
+ .m_section .h_sub_tel p {
+	font-family: roboto condensed;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 27px;
+	margin: 0;
+	padding-left: 7px;
+}  
+    
+.m_section .sub_call .call {
+
+	cursor: pointer;
+	font-family: roboto condensed;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 12px;
+	margin-right: 5px;
+        margin-left: 0px;
+}  
+
+/************************************/
+.calc.calc_okna .calc_height {
+	display: none;
+}
+.calc.calc_okna .calc_width {
+	display: none;
+}
+.calc .c_left {
+	width: 320px;
+}
+.calc.calc_okna .calc_main {
+	float: none;
+	height: 329px;
+	width: 310px;
+	background-size: 100% auto !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.calc.calc_okna .best_price {
+	left: 0px;
+}
+.calc .c_right {
+	width: 320px;
+}
+
+.calc .c_right .btn.b_wood{
+	margin-left: 26px!important;
+}
+
+/**********************************************************/
+.s1 .sk58 {
+	width: 310px;
+	height: 70px;
+}
+
+.s1 .s_table img{
+	width:20px;
+}
+
+.s1 .block_s1 {
+	width: 310px;
+}
+
+.s1 .s_table {
+	font-size: 12px;
+	margin-top: 9px;
+	height: 108px;
+}
+
+.s1 .block2_s1 {
+	width: 300px;
+}
+.s1 .block2_s1 ul li {
+	font-size: 16px;
+	padding-top: 8px;
+}
+
+
+/**************************************/
+.footer .d1 {
+	font-family: officinaserifcbold;
+	font-size: 24px;
+	font-weight: normal;
+}
+.footer .d2 {
+	font-size: 20px;
+	padding-top: 0;
+}
+.footer .d3 {
+	color: #8c5631;
+	font-size: 13px;
+	padding-top: 5px;
+}
+
+
+/**************************************/
+.popup1 {
+	background: url("../img/wood/callback_form_new.png") no-repeat;
+	border-radius: 7px;
+	display: none;
+	height: 377px;
+	margin: 30px auto auto;
+	position: fixed;
+	text-align: center;
+	width: 304px;
+	z-index: 11111;
+	padding-right: 0px;
+	background-position: center top;
+ 
+}
+
+
+.popup1 .header {
+	font-size: 30px;
+	margin: 0 auto 0 45px;
+	padding-top: 40px;
+	width: 100%;
+	line-height: 30px;
+	padding-left: 0;
+	margin-left: 0;
+	text-align: center;
+}
+
+.popup1 .pop_name_div{
+    width: 100%;
+    
+}
+.popup1 .pop_tel_div{
+    width: 100%;
+    
+}
+
+.popup1 input {
+	position: relative;
+	right: auto;
+	width: 182px;
+}
+
+/*********************************************/
+
+.spasibo {
+
+	border-radius: 7px;
+	height: 205px;
+	margin: 30px auto auto;
+	position: fixed;
+	text-align: center;
+	width: 304px;
+	z-index: 11111;
+	padding-right: 0px;
+	background-position: center top;
+ 
+}
+
+
+.spasibo .header {
+	font-size: 30px;
+	margin: 0 auto 0 45px;
+	padding-top: 40px;
+	width: 100%;
+	line-height: 30px;
+	padding-left: 0;
+	margin-left: 0;
+	text-align: center;
+}
+
+.spasibo .p1_msg {
+	font-size: 21px;
+	font-weight: lighter;
+	position: relative;
+	text-align: center;
+	top: auto;
+	width: 100%;
+}
+.spasibo .btn {
+	margin-top: 4px;
+}
+
+/********************************/
+.s4 .carousel-block img{
+	max-height:185px;
+}
+
+
+
+
+
+
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    .pull-right-md {
+        float: right;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+.pull-right-lg {
+        float: right;
+    }
+
+.s6 .zakaz_vp .btn {
+	/* position: absolute; */
+	/* right: 83px; */
+	/* top: 30px; */
+	margin-left: 20px;
+	margin-top: 1px;
+        color: #f1cc9c;
+}
+.s6 .input_tel {
+	background: url("../img/wood/tel_sign.png") no-repeat 5px center rgba(254, 231, 201, 1);
+	padding-left: 56px;
+	height: 60px;
+	border-radius: 30px;
+	width: 350px;
+	padding-top: 12px;
+	float: left;
+	margin-right: 0px;
+	border: 2px solid #f1cc9c;
+        box-shadow: 8px 7px 17px -8px #45443a inset;
+}
+.s6 .input_name {
+	background: url("../img/wood/name_sign.png") no-repeat 5px center rgba(254, 231, 201, 1);
+	padding-left: 56px;
+	padding-left: 56px;
+	height: 60px;
+	border-radius: 30px;
+	width: 350px;
+	padding-top: 12px;
+	float: left;
+	margin-right: 20px;
+	border: 2px solid #f1cc9c;
+        box-shadow: 8px 7px 17px -8px #45443a inset;
+}	
+	
+}

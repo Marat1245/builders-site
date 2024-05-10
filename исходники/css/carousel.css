@@ -1,0 +1,592 @@
+.carousel  {
+   max-width: 1200px; /* ширина всего блока */
+   margin: 20px auto 35px;
+   width:100%;
+}
+
+.s4 .carousel  {
+	background:url('../img/gal_pic_bg.png') no-repeat;
+   max-width: 1200px; /* ширина всего блока */
+   margin: 30px auto 0;
+   /*margin: 20px auto 35px;*/
+   width:1166px;
+   height:200px;
+
+
+}
+
+.k_gal .carousel  {
+   max-width: 1200px; /* ширина всего блока */
+   margin: 30px auto 0;
+   /*margin: 20px auto 35px;*/
+   width:100%;
+}
+
+
+
+.r_color .carousel,
+.r_thing .carousel  {
+   max-width: 580px; /* ширина всего блока */
+   margin: 0 auto;
+   /*margin: 20px auto 35px;*/
+   width:100%;
+    position: relative;
+}
+
+
+.s4 .carousel-wrapper {
+    margin: 0 59px 10px 59px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:1048px;
+   padding-top: 10px;
+}
+
+.carousel-wrapper {
+   margin: 10px 44px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:1112px;
+}
+
+
+
+.k_gal .carousel-wrapper {
+     margin: 0 44px 10px 48px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:1109px;
+}
+
+.r_color .carousel-wrapper,
+.r_thing .carousel-wrapper {
+     margin: 0 44px 10px 44px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:490px;
+}
+
+.carousel-items {
+   width: 10000px; /* устанавливаем большую ширину для набора элементов */
+   position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.s3 .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 365px; /* задаём ширину каждого элемента */
+   position:relative;
+   
+   padding: 10px 10px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+
+}
+
+
+
+.k_gal .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   width: 213px; /* задаём ширину каждого элемента */
+   padding: 10px 10px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+}
+
+
+
+.carousel-block img{
+   /* display:block;*/
+   max-width:365px;
+   max-height:433px;
+}
+ 
+/*********** BUTTONS ***********/
+.s3 .carousel-button-left a, .s3 .carousel-button-right a{
+   width: 32px; 
+   height: 59px; 
+   position: relative;
+   top: 190px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.s4 .carousel-button-left a, .s4 .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 63px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+
+
+
+
+/************************/
+
+.carousel-okna.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+border-radius: 0;
+color: white;
+cursor: pointer;
+display: block;
+font-size: 14px;
+
+margin: 0;
+padding: 0;
+width: 40px; 
+height: 40px; 
+top: 37%;
+
+position:absolute;
+}
+
+.carousel-okna.owl-theme .owl-controls .owl-nav .owl-prev{
+    background:  url("../img/carousel-left.png") no-repeat left center;
+    left: -40px;
+
+}
+.carousel-okna.owl-theme .owl-controls .owl-nav .owl-next{
+     background: url("../img/carousel-right.png") no-repeat left center; 
+     right: -40px;
+}
+/************************/
+
+.carousel-nz.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+border-radius: 0;
+color: white;
+cursor: pointer;
+display: block;
+font-size: 14px;
+
+margin: 0;
+padding: 0;
+width: 40px; 
+height: 40px; 
+top: 50%;
+  position: absolute;
+  margin-top: -63px;
+}
+
+.carousel-nz.owl-theme .owl-controls .owl-nav .owl-prev{
+    background: url("../img/carousel-left_big.png") no-repeat left center;
+    left: -40px;
+
+}
+.carousel-nz.owl-theme .owl-controls .owl-nav .owl-next{
+    background: url("../img/carousel-right_big.png") no-repeat left center;
+     right: -40px;
+}
+
+/******************************************/
+.carousel-cons.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+border-radius: 0;
+color: white;
+cursor: pointer;
+display: block;
+font-size: 14px;
+
+margin: 0;
+padding: 0;
+width: 40px; 
+height: 40px; 
+top: 151px;
+
+position:absolute;
+}
+
+.carousel-cons.owl-theme .owl-controls .owl-nav .owl-prev{
+    background:  url("../img/carousel-left.png") no-repeat left center;
+    left: -40px;
+
+}
+.carousel-cons.owl-theme .owl-controls .owl-nav .owl-next{
+     background: url("../img/carousel-right.png") no-repeat left center; 
+     right: -40px;
+}
+
+
+
+
+
+/********************************************/
+
+
+.k_gal .carousel-button-left a, .k_gal .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 113px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+.r_color .carousel-button-left a, .r_color .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 38px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+.r_thing .carousel-button-left a, .r_thing .carousel-button-right a{
+   width: 40px; 
+   height: 40px; 
+   position: relative;
+   top: 38px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+.k_gal .carousel-button-left a, .k_gal .carousel-button-right a{
+top:70px;
+}
+
+.s4 .carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left_big.png);
+	left: 9px;   
+}
+
+.s4 .carousel-button-left a:hover{
+	background: url(../img/carousel-left_big.png); 
+	left: 9px;
+}
+
+
+.s4 .carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right_big.png); 
+   right: 9px;
+}
+
+.s4 .carousel-button-right a:hover{
+   background: url(../img/carousel-right_big.png); 
+   right: 9px;
+}
+
+.carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left.png); 
+}
+
+.carousel-button-left a:hover{
+	background: url(../img/carousel-left_h.png); 
+}
+
+
+.carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right.png); 
+}
+
+.carousel-button-right a:hover{
+   background: url(../img/carousel-right_h.png); 
+}
+
+
+.k_gal .carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left_b.png); 
+}
+
+.k_gal .carousel-button-left a:hover{
+	background: url(../img/carousel-left.png); 
+}
+
+
+.k_gal .carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right_b.png); 
+
+}
+
+.k_gal .carousel-button-right a:hover{
+   background: url(../img/carousel-right.png); 
+}
+/*
+
+.r_color .carousel-button-left a,
+.r_thing .carousel-button-left a{
+   float: left; 
+   background: url(../img/carousel-left_big.png); 
+}
+
+.r_color .carousel-button-left a:hover,
+.r_thing .carousel-button-left a:hover{
+	background: url(../img/carousel-left_big_hh.png); 
+}
+
+
+.r_color .carousel-button-right a,
+.r_thing .carousel-button-right a{
+   float: right;
+   background: url(../img/carousel-right_big.png); 
+   left:0px;
+}
+
+.r_color .carousel-button-right a:hover,
+.r_thing .carousel-button-right a:hover{
+   background: url(../img/carousel-right_big_hh.png); 
+}
+ */
+ /************************/
+.carousel-chh.owl-theme .owl-controls .owl-nav [class*="owl-"],
+.carousel-rhh.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+border-radius: 0;
+color: white;
+cursor: pointer;
+display: block;
+font-size: 14px;
+
+margin: 0;
+padding: 0;
+width: 40px; 
+height: 40px; 
+top: 27%;
+
+position:absolute;
+}
+
+.carousel-chh.owl-theme .owl-controls .owl-nav .owl-prev,
+.carousel-rhh.owl-theme .owl-controls .owl-nav .owl-prev{
+    background:  url("../img/carousel-left_big.png") no-repeat left center;
+    left: -27px;
+
+}
+.carousel-chh.owl-theme .owl-controls .owl-nav .owl-next,
+.carousel-rhh.owl-theme .owl-controls .owl-nav .owl-next{
+     background: url("../img/carousel-right_big.png") no-repeat left center; 
+     right: -27px;
+}
+
+.carousel-chh.owl-theme .owl-controls .owl-nav .owl-prev:hover,
+.carousel-rhh.owl-theme .owl-controls .owl-nav .owl-prev:hover{
+    background: url("../img/carousel-left_big_hh.png") no-repeat left center;
+
+}
+.carousel-chh.owl-theme .owl-controls .owl-nav .owl-next:hover,
+.carousel-rhh.owl-theme .owl-controls .owl-nav .owl-next:hover{
+     background: url("../img/carousel-right_big_hh.png") no-repeat left center; 
+
+}
+
+ /************************/
+
+.carousel-gal.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+border-radius: 0;
+color: white;
+cursor: pointer;
+display: block;
+font-size: 14px;
+
+margin: 0;
+padding: 0;
+width: 40px; 
+height: 40px; 
+top: 36%;
+
+position:absolute;
+}
+
+
+.carousel-gal.owl-theme .owl-controls .owl-nav .owl-prev{
+    background:  url("../img/carousel-left_big.png") no-repeat left center;
+    left: 100px;
+
+}
+
+.carousel-gal.owl-theme .owl-controls .owl-nav .owl-next{
+     background: url("../img/carousel-right_big.png") no-repeat left center; 
+     right: 100px;
+}
+
+
+.carousel-gal.owl-theme .owl-controls .owl-nav .owl-prev:hover{
+    background: url("../img/carousel-left_big_hh.png") no-repeat left center;
+
+}
+
+.carousel-gal.owl-theme .owl-controls .owl-nav .owl-next:hover{
+     background: url("../img/carousel-right_big_hh.png") no-repeat left center; 
+
+}
+
+ /************************/
+
+.otz_carousel.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+border-radius: 0;
+color: white;
+cursor: pointer;
+display: block;
+font-size: 14px;
+
+margin: 0;
+padding: 0;
+width: 40px; 
+height: 40px; 
+top: 36%;
+
+position:absolute;
+}
+
+
+.otz_carousel.owl-theme .owl-controls .owl-nav .owl-prev{
+    background:  url("../img/carousel-left_big.png") no-repeat left center;
+    left: -40px;
+
+}
+
+.otz_carousel.owl-theme .owl-controls .owl-nav .owl-next{
+     background: url("../img/carousel-right_big.png") no-repeat left center; 
+     right: -40px;
+}
+
+
+.otz_carousel.owl-theme .owl-controls .owl-nav .owl-prev:hover{
+    background: url("../img/carousel-left_big_hh.png") no-repeat left center;
+
+}
+
+.otz_carousel.owl-theme .owl-controls .owl-nav .owl-next:hover{
+     background: url("../img/carousel-right_big_hh.png") no-repeat left center; 
+
+}
+ /************************/
+
+.svva_carousel.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+border-radius: 0;
+color: white;
+cursor: pointer;
+display: block;
+font-size: 14px;
+
+margin: 0;
+padding: 0;
+width: 40px; 
+height: 40px; 
+top: 50%;
+
+position:absolute;
+}
+
+
+.svva_carousel.owl-theme .owl-controls .owl-nav .owl-prev{
+    background:  url("../img/carousel-left_big.png") no-repeat left center;
+    left: -40px;
+
+}
+
+.svva_carousel.owl-theme .owl-controls .owl-nav .owl-next{
+     background: url("../img/carousel-right_big.png") no-repeat left center; 
+     right: -40px;
+}
+
+
+.svva_carousel.owl-theme .owl-controls .owl-nav .owl-prev:hover{
+    background: url("../img/carousel-left_big_hh.png") no-repeat left center;
+
+}
+
+.svva_carousel.owl-theme .owl-controls .owl-nav .owl-next:hover{
+     background: url("../img/carousel-right_big_hh.png") no-repeat left center; 
+
+}
+ /************************/
+
+.carousel-cv.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+border-radius: 0;
+color: white;
+cursor: pointer;
+display: block;
+font-size: 14px;
+
+margin: 0;
+padding: 0;
+width: 40px; 
+height: 40px; 
+top: 30px;
+
+position:absolute;
+}
+
+
+.carousel-cv.owl-theme .owl-controls .owl-nav .owl-prev{
+    background:  url("../img/carousel-left_big.png") no-repeat left center;
+    left: -40px;
+
+}
+
+.carousel-cv.owl-theme .owl-controls .owl-nav .owl-next{
+     background: url("../img/carousel-right_big.png") no-repeat left center; 
+     right: -40px;
+}
+
+
+.carousel-cv.owl-theme .owl-controls .owl-nav .owl-prev:hover{
+    background: url("../img/carousel-left_big_hh.png") no-repeat left center;
+
+}
+
+.carousel-cv.owl-theme .owl-controls .owl-nav .owl-next:hover{
+     background: url("../img/carousel-right_big_hh.png") no-repeat left center; 
+
+}
+
+ /********************************/
+ .ul_menu_.carousel  {
+   max-width: 1200px; /* ширина всего блока */
+   margin: 20px auto 35px;
+   width:100%;
+   position:relative;
+}
+ 
+ .ul_menu_.carousel .carousel-wrapper {
+    margin: 0 33px 10px 33px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+   width:348px;
+   padding-top: 10px;
+}
+ 
+ .ul_menu_.carousel .carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   /*width: 90px; */ /* задаём ширину каждого элемента */
+   width: auto; /* задаём ширину каждого элемента */
+   /*padding: 5px 37px 5px 0px; */ /* делаем оступы, чтобы элементы не сливались */
+   padding: 5px 0px 5px 0px; /* делаем оступы, чтобы элементы не сливались */
+}
+ 
+ 
+ .ul_menu_.carousel .carousel-button-left a{
+   float: left; 
+   background: rgba(0, 0, 0, 0) url("../img/balkon_left.png") no-repeat scroll 0 0;
+    margin-left: 18px;
+}
+
+
+
+ .ul_menu_.carousel .carousel-button-right a{
+   float: right;
+   background: rgba(0, 0, 0, 0) url("../img/balkon_right.png") no-repeat scroll 0 0;
+   left:0px;
+    margin-right: 10px;
+}
+ 
+ .ul_menu_ .carousel-button-left a, .ul_menu_ .carousel-button-right a{
+   width: 14px; 
+   height: 23px; 
+   position: relative;
+   top: 29px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+ /**********************************/
+/*********** SHADOW ***********/
+.shadow{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
